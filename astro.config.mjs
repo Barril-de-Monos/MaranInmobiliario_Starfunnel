@@ -25,9 +25,9 @@ const m2dxOptions = {
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://starfunnel.unfolding.io",
+  site: "https://maraninmobiliario.com.mx",
   output: "hybrid",
-  adapter: env.NETLIFY ? netlify(): vercel(), // vercel() or netlify()
+  adapter: vercel(), //env.NETLIFY ? netlify(): vercel(), // vercel() or netlify()
   integrations: [
     icon(),
     mdx({}),
