@@ -1,16 +1,16 @@
 {
-  "name": "starfunnel",
+  "name": "Maran Inmobiliario",
   "type": "module",
   "license": "CC BY-ND 4.0",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "keywords": [
-    "astro",
-    "Static CMS",
-    "Vue 3",
-    "mdx",
-    "markdown"
+    "realtor",
+    "real estate",
+    "asesor inmobiliario",
+    "Ciudad Maderas",
+    "terrenos premium"
   ],
-  "description": "Fast & Green Sales Funnel Theme Based on Astro + Static CMS. ",
+  "description": "Realtor website based on the starfunnel theme. ",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
