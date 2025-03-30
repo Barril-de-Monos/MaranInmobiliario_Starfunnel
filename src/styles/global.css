@@ -140,7 +140,7 @@ body {
   @screen xs {
     --spacing: 2rem;
   }
-  font-family: "DM Sans Variable", "Adjusted Arial Fallback", "arial",
+  font-family: "DM Serif Text", "Adjusted Arial Fallback", "arial",
     sans-serif;
   --container-spacing: calc(var(--spacing) * 2);
   --grid-spacing: calc(var(--spacing) / 2);
