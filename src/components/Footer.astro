@@ -36,7 +36,7 @@ const showNewsletter = !!import.meta.env.NEWSLETTER_PROVIDER || "mailchimp";
         ))
     }
 
-    {
+    <!-- {
       showNewsletter && (
         <div class="flex-col content-end items-end justify-end gap-2 py-0 pt-8 sm:ml-auto sm:flex sm:max-w-md sm:pt-0 sm:text-right">
           <div
@@ -46,12 +46,12 @@ const showNewsletter = !!import.meta.env.NEWSLETTER_PROVIDER || "mailchimp";
           <Newsletter client:visible />
         </div>
       )
-    }
+    } -->
   </div>
   <div class="container-xl mb-4 flex items-end justify-between gap-4">
     <div class="grid grid-cols-1 gap-4">
       <a rel="noopener noreferrer" href="#" aria-label={t("back_to_home")}>
-        <Icon name="logo-footer" class="h-6" />
+        <Icon name="logo-footer" class="h-6 w-fit" />
       </a>
 
       {
@@ -91,7 +91,7 @@ const showNewsletter = !!import.meta.env.NEWSLETTER_PROVIDER || "mailchimp";
 
     <!-- ✌️✌️ Thanks!✌️✌️ -->
 
-    <a
+    <!-- <a
       href="https://unfolding.io"
       target="_blank"
       rel="noopener noreferrer"
@@ -110,7 +110,7 @@ const showNewsletter = !!import.meta.env.NEWSLETTER_PROVIDER || "mailchimp";
           fill="currentColor"></path>
       </svg>
     </a>
-  </div>
+  </div> -->
 </footer>
 
 <slot />
