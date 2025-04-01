@@ -27,7 +27,7 @@ const m2dxOptions = {
 export default defineConfig({
   site: "https://maraninmobiliario.com.mx",
   output: "hybrid",
-  adapter: vercel(), //env.NETLIFY ? netlify(): vercel(), // vercel() or netlify()
+  adapter: netlify (), //env.NETLIFY ? netlify(): vercel(), // vercel() or netlify()
   integrations: [
     icon(),
     mdx({}),

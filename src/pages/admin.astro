@@ -21,6 +21,13 @@ const config = {
   backend: {
     name: "github",
     repo: "Barril-de-Monos/MaranInmobiliario_Starfunnel",
+    commit_messages: {
+			create: 'Create {{collection}} "{{slug}}"',
+			update: 'Update {{collection}} "{{slug}}"',
+			delete: 'Delete {{collection}} "{{slug}}"',
+			uploadMedia: 'Upload "{{path}}"',
+			deleteMedia: 'Delete "{{path}}"'
+		}
   },
   search: true,
   media_folder: "src/assets",
