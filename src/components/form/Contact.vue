@@ -43,53 +43,53 @@
 
       <label
         class="peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-primary"
-        >{{ t("topic") }} *</label
+        >{{ t("tema") }} *</label
       >
     </div>
     <div class="input-group">
       <input
         type="text"
-        name="name"
+        name="nombre"
         placeholder=" "
         class="peer"
         v-model="form.name"
       />
       <label
         class="peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-primary"
-        >{{ t("name") }} *</label
+        >{{ t("nombre") }} *</label
       >
     </div>
 
     <div class="input-group">
       <input
         type="email"
-        name="email"
+        name="correo"
         placeholder=" "
         class="peer"
         v-model="form.email"
       />
       <label
         class="peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-primary"
-        >{{ t("email") }} *</label
+        >{{ t("correo") }} *</label
       >
     </div>
     <div class="input-group">
       <input
         type="text"
-        name="phone"
+        name="teléfono"
         placeholder=" "
         class="peer"
         v-model="form.phone"
       />
       <label
         class="peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-primary"
-        >{{ t("phone") }}</label
+        >{{ t("teléfono") }}</label
       >
     </div>
     <div class="input-group">
       <textarea
         class="hide-scrollbar peer"
-        name="message"
+        name="mensaje"
         id=""
         placeholder=" "
         cols="30"
@@ -100,7 +100,7 @@
       <label
         class="peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-primary"
       >
-        {{ t("message") }} *</label
+        {{ t("mensaje") }} *</label
       >
     </div>
     <div
@@ -112,7 +112,7 @@
         :disabled="!canSubmit"
       >
         <span>
-          {{ t("submit") }}
+          {{ t("enviar") }}
         </span>
         <svg
           class="-mr-1 h-5 w-5"
