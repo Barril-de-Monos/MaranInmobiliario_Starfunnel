@@ -11,7 +11,7 @@ export const sharpOptions = {
 		effort: 10,
 	},
 	jpeg: {
-		cspell:ignore mozjpeg
+		// cspell:ignore mozjpeg
 		mozjpeg: true,
 	},
 	webp: {
