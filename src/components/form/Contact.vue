@@ -246,9 +246,11 @@ const submit = () => {
       body: JSON.stringify(mailData.value),
       headers: { "Content-Type": "application/json" },
     })
+      .then(console.log(r))
       .then((r) => r.json())
       .then((data) => { 
         if (data.status === "ok") {
+          console.log("data ok");
           toast.success(t("contact_thanks"));
           form.email = "";
           form.name = "";
@@ -257,6 +259,7 @@ const submit = () => {
           input.value = "";
           hide();
         } else {
+          console.log("data failed");
           toast.error(t("contact_error"));
         }
       })
