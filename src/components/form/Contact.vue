@@ -241,12 +241,11 @@ const submit = () => {
   loading.value = true;
 
   if (!!props.contact.provider) {
-    fetch(`/api/contact/${props.contact.provider}`, {
+    fetch(`/pages/api/contact/${props.contact.provider}`, {
       method: "POST",
       body: JSON.stringify(mailData.value),
       headers: { "Content-Type": "application/json" },
     })
-      .then(console.log(r))
       .then((r) => r.json())
       .then((data) => { 
         if (data.status === "ok") {
